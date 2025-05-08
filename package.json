@@ -1,0 +1,15 @@
+{
+  "name": "my-gas-vite-project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "push": "node push.js",
+    "clasp": "node ./node_modules/.bin/clasp"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.0.3-alpha",
+    "vite": "^5.0.0"
+  }
+}

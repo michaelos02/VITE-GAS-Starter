@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(173, 242, 247);
+  padding: 2rem;
+  text-align: center;
+}
+p {
+  color:red
+}
