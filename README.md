@@ -1,5 +1,3 @@
-Here is your cleaned and fully functional `README.md` with lines 3 and 37 removed and all formatting verified for proper GitHub rendering:
-
 # 🧪 Vite + Google Apps Script Starter Template
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-blue?logo=github&style=for-the-badge)](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/generate)
@@ -33,6 +31,8 @@ This template provides a clean and modern development setup for building **Googl
    npm install
    npx clasp create --title "My GAS Web App" --type webapp --rootDir gas
    npm run push
+   ```
+   > 💡 If you're working in **Google Project IDX**, you'll need to log in to CLASP using a workaround — [see CLASP Login Workaround in Project IDX](#-clasp-login-workaround-in-project-idx) below.
 
 4. **Deploy** your web app:
 
@@ -140,7 +140,7 @@ This project is all about creating a simple, reusable **starter template** for G
 
 I was already familiar with **CLASP** from earlier attempts in VSCode, so combining that with Vite and a local dev simulation of `google.script.run` made for a perfect balance.
 
-If you have questions or want to contribute, feel free to reach out to me:
+If you have questions or want to contribute, feel free to reach out to me:  
 📧 [michael@mroresolutions.rocks](mailto:michael@mroresolutions.rocks)
 
 ---
@@ -148,8 +148,3 @@ If you have questions or want to contribute, feel free to reach out to me:
 ## 🙌 License
 
 MIT — use freely for commercial or personal GAS projects!
-
-```
-
-Let me know if you'd like me to convert this into a downloadable `.md` file or help you create a commit message for GitHub.
-```
