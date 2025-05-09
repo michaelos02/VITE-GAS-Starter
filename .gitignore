@@ -2,3 +2,4 @@ node_modules
 dist
 gas/Index.html
 .env
+dist/
