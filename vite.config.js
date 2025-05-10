@@ -1,15 +1,25 @@
-import { defineConfig } from 'vite'
+
+import { defineConfig } from 'vite';
+import { viteSingleFile } from 'vite-plugin-singlefile';
+import { scriptPositionPlugin } from './vite-plugin-script-position.js';
 
 export default defineConfig({
-  root: 'src', // 👈 this tells Vite to serve from src/ during development
+  root: 'src',
   server: {
     host: '0.0.0.0',
     port: 1234,
   },
   build: {
-    outDir: '../dist', // 👈 since we're inside src/, build outside
+    outDir: '../dist',
+    assetsInlineLimit: Infinity,
+    //Ensures CSS in inlined
+    cssCodeSplit: false,
     rollupOptions: {
-      input: 'src/index.html'
-    }
-  }
+      input: 'src/index.html',
+    },
+  },
+  plugins: [
+    viteSingleFile(),
+    scriptPositionPlugin()
+  ],
 })
