@@ -10,7 +10,8 @@
   },
   "devDependencies": {
     "@google/clasp": "^3.0.3-alpha",
-    "vite": "^5.0.0",
+    "@types/google-apps-script": "^1.0.97",
+    "vite": "^6.3.5",
     "vite-plugin-singlefile": "^2.2.0"
   }
 }

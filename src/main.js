@@ -1,6 +1,7 @@
 document.body.insertAdjacentHTML('beforeend', `
   <button id="getDataBtn">Get Data</button>
   <button id="convertBtn">Convert Number</button>
+  <button id="theMsg">Show Message</button>
 `);
 
 document.getElementById('getDataBtn').addEventListener('click', () => {
@@ -31,3 +32,18 @@ document.getElementById('convertBtn').addEventListener('click', () => {
     })
     .getConversion(number);
 });
+
+document.getElementById('theMsg').addEventListener('click', showMessage)
+
+const showMessage =()=>{
+  google.script.run
+  .withSuccessHandler((result) => {
+    console.log('The message:', result);
+    alert(`The message: ${result}`);
+  })
+  .withFailureHandler((err) => {
+    console.error('Message failed:', err);
+    alert('Error: ' + err);
+  })
+  .showMessage()
+}
