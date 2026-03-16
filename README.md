@@ -1,6 +1,6 @@
 # 🧪 Vite + Google Apps Script Starter Template
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-blue?logo=github&style=for-the-badge)](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-blue?logo=github&style=for-the-badge)](https://github.com/michaelos02/VITE-GAS-Starter/generate)
 
 This template provides a clean and modern development setup for building **Google Apps Script Web Apps** using:
 
